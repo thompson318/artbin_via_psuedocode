@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rproj\.user
+^\.github$
+^\.gitignore$
+^inst/shiny$
+^LICENSE$

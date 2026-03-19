@@ -1,0 +1,35 @@
+Package: artbin
+Title: Sample Size and Power for Binary Outcome Clinical Trials
+Version: 2.1.2
+Authors@R: c(
+    person("Abdel", "Babiker", role = "aut"),
+    person("Ella", "Marley-Zagar", role = "aut"),
+    person("Ian", "White", role = c("aut", "cre"),
+           email = "ian.white@ucl.ac.uk"),
+    person("Patrick", "Royston", role = "ctb"),
+    person("Friederike", "Barthel", role = "ctb"))
+Description: Calculates the power or total sample size for randomized clinical
+    trials with binary outcomes. Supports superiority, non-inferiority, and
+    substantial-superiority designs with two or more arms. Implements the score
+    test, Wald test, conditional test (Peto's odds-ratio approximation), and
+    linear trend test. Three methods for estimating the null-hypothesis variance
+    are available: sample estimates, fixed marginal totals, and constrained
+    maximum likelihood. Additional features include allocation ratios, loss to
+    follow-up, continuity correction, and local vs distant alternatives.
+    Translated from the Stata artbin package (Marley-Zagar et al., 2023,
+    <doi:10.1177/1536867X231162026>).
+Author: Abdel Babiker [aut], Ella Marley-Zagar [aut], Ian White [aut, cre],
+    Patrick Royston [ctb], Friederike Barthel [ctb]
+Maintainer: Ian White <ian.white@ucl.ac.uk>
+License: GPL (>= 3) | file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests:
+    testthat (>= 3.0.0),
+    shiny,
+    shinyWidgets,
+    bslib
+Config/testthat/edition: 3
+Imports:
+    stats

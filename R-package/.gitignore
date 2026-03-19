@@ -1,0 +1,25 @@
+# R build artefacts
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+.Rproj.user/
+
+# Package build
+/*.tar.gz
+/*.tgz
+/Meta/
+/doc/
+
+# R check output
+/*.Rcheck/
+
+# renv
+renv/library/
+renv/staging/
+renv/.cache/
+renv/sandbox/
+
+# OS
+.DS_Store
+Thumbs.db
